@@ -1,0 +1,425 @@
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.59
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jan 28 2015 15:51:10 UTC
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.59.0
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-573.22.1.el6.x86_64
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/local/jdk1.7.0_45/jre
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_45-b18
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /usr/local/apache-tomcat-7.0.59_meike-mener
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/local/apache-tomcat-7.0.59_meike-mener
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/usr/local/apache-tomcat-7.0.59_meike-mener/conf/logging.properties
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/local/apache-tomcat-7.0.59_meike-mener/endorsed
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/usr/local/apache-tomcat-7.0.59_meike-mener
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/local/apache-tomcat-7.0.59_meike-mener
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/usr/local/apache-tomcat-7.0.59_meike-mener/temp
+Jan 07, 2017 2:29:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jan 07, 2017 2:29:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8088"]
+Jan 07, 2017 2:29:16 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8018"]
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 812 ms
+Jan 07, 2017 2:29:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jan 07, 2017 2:29:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Jan 07, 2017 2:29:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /usr/local/apache-tomcat-7.0.59_meike-mener/webapps/meike-mener
+Jan 07, 2017 2:29:16 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/usr/local/apache-tomcat-7.0.59_meike-mener/webapps/meike-mener/WEB-INF/lib/javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN File option not set for appender [file].
+log4j:WARN Are you using FileAppender instead of ConsoleAppender?
+log4j:ERROR Either File or DatePattern options are not set for appender [file].
+2017-01-07 14:29:23,042 INFO  [localhost-startStop-1] DispatcherServlet.initServletBean(454) | FrameworkServlet 'meike-mener': initialization started
+2017-01-07 14:29:23,049 INFO  [localhost-startStop-1] XmlWebApplicationContext.prepareRefresh(510) | Refreshing WebApplicationContext for namespace 'meike-mener-servlet': startup date [Sat Jan 07 14:29:23 CST 2017]; parent: Root WebApplicationContext
+2017-01-07 14:29:23,051 INFO  [localhost-startStop-1] XmlBeanDefinitionReader.loadBeanDefinitions(315) | Loading XML bean definitions from URL [file:/usr/local/apache-tomcat-7.0.59_meike-mener/webapps/meike-mener/WEB-INF/classes/config/spring-servlet.xml]
+2017-01-07 14:29:23,112 INFO  [localhost-startStop-1] ClassPathBeanDefinitionScanner.registerDefaultFilters(231) | JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2017-01-07 14:29:23,244 INFO  [localhost-startStop-1] DefaultListableBeanFactory.preInstantiateSingletons(598) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7b313417: defining beans [qiniuController,SMSController,versionController,userOrderController,alipayController,baseController,userBoardController,userMineController,userHomeController,userLoginController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,stringHttpMessageConverter,velocityConfig,viewResolver,dateConverter,stringTrimConverter,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter#0,lastHandlerMapping,multipartResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1de07354
+2017-01-07 14:29:23,817 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/qiniu/token] onto handler 'qiniuController'
+2017-01-07 14:29:23,817 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/qiniu/token.*] onto handler 'qiniuController'
+2017-01-07 14:29:23,818 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/qiniu/token/] onto handler 'qiniuController'
+2017-01-07 14:29:23,820 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/sms/free/verifyCode] onto handler 'SMSController'
+2017-01-07 14:29:23,820 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/sms/free/verifyCode.*] onto handler 'SMSController'
+2017-01-07 14:29:23,820 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/sms/free/verifyCode/] onto handler 'SMSController'
+2017-01-07 14:29:23,820 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/sms/free/voiceCode] onto handler 'SMSController'
+2017-01-07 14:29:23,820 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/sms/free/voiceCode.*] onto handler 'SMSController'
+2017-01-07 14:29:23,821 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/sms/free/voiceCode/] onto handler 'SMSController'
+2017-01-07 14:29:23,822 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/version/free/check] onto handler 'versionController'
+2017-01-07 14:29:23,823 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/version/free/check.*] onto handler 'versionController'
+2017-01-07 14:29:23,824 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/version/free/check/] onto handler 'versionController'
+2017-01-07 14:29:23,830 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/currentOrderDetail] onto handler 'userOrderController'
+2017-01-07 14:29:23,830 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/currentOrderDetail.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,830 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/currentOrderDetail/] onto handler 'userOrderController'
+2017-01-07 14:29:23,830 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/haveOrder] onto handler 'userOrderController'
+2017-01-07 14:29:23,830 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/haveOrder.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,831 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/haveOrder/] onto handler 'userOrderController'
+2017-01-07 14:29:23,831 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payFail] onto handler 'userOrderController'
+2017-01-07 14:29:23,831 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payFail.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,831 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payFail/] onto handler 'userOrderController'
+2017-01-07 14:29:23,831 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/treatPreder] onto handler 'userOrderController'
+2017-01-07 14:29:23,832 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/treatPreder.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,832 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/treatPreder/] onto handler 'userOrderController'
+2017-01-07 14:29:23,832 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/share] onto handler 'userOrderController'
+2017-01-07 14:29:23,832 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/share.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,832 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/share/] onto handler 'userOrderController'
+2017-01-07 14:29:23,833 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/free/htmlInvite] onto handler 'userOrderController'
+2017-01-07 14:29:23,833 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/free/htmlInvite.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,833 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/free/htmlInvite/] onto handler 'userOrderController'
+2017-01-07 14:29:23,833 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payCheck] onto handler 'userOrderController'
+2017-01-07 14:29:23,833 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payCheck.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,834 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payCheck/] onto handler 'userOrderController'
+2017-01-07 14:29:23,834 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payFaile] onto handler 'userOrderController'
+2017-01-07 14:29:23,834 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payFaile.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,834 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/payFaile/] onto handler 'userOrderController'
+2017-01-07 14:29:23,834 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/preder] onto handler 'userOrderController'
+2017-01-07 14:29:23,835 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/preder.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,835 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/preder/] onto handler 'userOrderController'
+2017-01-07 14:29:23,835 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/rate] onto handler 'userOrderController'
+2017-01-07 14:29:23,835 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/rate.*] onto handler 'userOrderController'
+2017-01-07 14:29:23,836 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/userOrder/rate/] onto handler 'userOrderController'
+2017-01-07 14:29:23,838 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/orderNotify] onto handler 'alipayController'
+2017-01-07 14:29:23,838 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/orderNotify.*] onto handler 'alipayController'
+2017-01-07 14:29:23,839 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/orderNotify/] onto handler 'alipayController'
+2017-01-07 14:29:23,839 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/rechargeNotify] onto handler 'alipayController'
+2017-01-07 14:29:23,839 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/rechargeNotify.*] onto handler 'alipayController'
+2017-01-07 14:29:23,839 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/rechargeNotify/] onto handler 'alipayController'
+2017-01-07 14:29:23,840 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/demoNotify1] onto handler 'alipayController'
+2017-01-07 14:29:23,840 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/demoNotify1.*] onto handler 'alipayController'
+2017-01-07 14:29:23,840 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/demoNotify1/] onto handler 'alipayController'
+2017-01-07 14:29:23,840 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/demoNotify2] onto handler 'alipayController'
+2017-01-07 14:29:23,840 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/demoNotify2.*] onto handler 'alipayController'
+2017-01-07 14:29:23,841 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/free/demoNotify2/] onto handler 'alipayController'
+2017-01-07 14:29:23,841 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/keys] onto handler 'alipayController'
+2017-01-07 14:29:23,841 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/keys.*] onto handler 'alipayController'
+2017-01-07 14:29:23,841 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/alipay/keys/] onto handler 'alipayController'
+2017-01-07 14:29:23,844 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/popularList] onto handler 'userBoardController'
+2017-01-07 14:29:23,844 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/popularList.*] onto handler 'userBoardController'
+2017-01-07 14:29:23,845 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/popularList/] onto handler 'userBoardController'
+2017-01-07 14:29:23,845 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/creditList] onto handler 'userBoardController'
+2017-01-07 14:29:23,845 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/creditList.*] onto handler 'userBoardController'
+2017-01-07 14:29:23,845 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/creditList/] onto handler 'userBoardController'
+2017-01-07 14:29:23,850 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/myHomePage] onto handler 'userMineController'
+2017-01-07 14:29:23,850 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/myHomePage.*] onto handler 'userMineController'
+2017-01-07 14:29:23,850 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/myHomePage/] onto handler 'userMineController'
+2017-01-07 14:29:23,851 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/orderHistory] onto handler 'userMineController'
+2017-01-07 14:29:23,851 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/orderHistory.*] onto handler 'userMineController'
+2017-01-07 14:29:23,851 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/orderHistory/] onto handler 'userMineController'
+2017-01-07 14:29:23,851 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/myAttentions] onto handler 'userMineController'
+2017-01-07 14:29:23,852 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/myAttentions.*] onto handler 'userMineController'
+2017-01-07 14:29:23,852 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/myAttentions/] onto handler 'userMineController'
+2017-01-07 14:29:23,852 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/orderHistoryDetail] onto handler 'userMineController'
+2017-01-07 14:29:23,852 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/orderHistoryDetail.*] onto handler 'userMineController'
+2017-01-07 14:29:23,852 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/orderHistoryDetail/] onto handler 'userMineController'
+2017-01-07 14:29:23,853 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/recharge] onto handler 'userMineController'
+2017-01-07 14:29:23,853 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/recharge.*] onto handler 'userMineController'
+2017-01-07 14:29:23,853 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/recharge/] onto handler 'userMineController'
+2017-01-07 14:29:23,853 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/rechargeHistory] onto handler 'userMineController'
+2017-01-07 14:29:23,853 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/rechargeHistory.*] onto handler 'userMineController'
+2017-01-07 14:29:23,854 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/rechargeHistory/] onto handler 'userMineController'
+2017-01-07 14:29:23,862 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/homePage] onto handler 'userHomeController'
+2017-01-07 14:29:23,862 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/homePage.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,862 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/homePage/] onto handler 'userHomeController'
+2017-01-07 14:29:23,862 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/distanceList] onto handler 'userHomeController'
+2017-01-07 14:29:23,862 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/distanceList.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,863 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/distanceList/] onto handler 'userHomeController'
+2017-01-07 14:29:23,863 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/gradeList] onto handler 'userHomeController'
+2017-01-07 14:29:23,863 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/gradeList.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,863 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/gradeList/] onto handler 'userHomeController'
+2017-01-07 14:29:23,863 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/babyDetail] onto handler 'userHomeController'
+2017-01-07 14:29:23,864 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/babyDetail.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,864 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/babyDetail/] onto handler 'userHomeController'
+2017-01-07 14:29:23,864 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/searchBaby] onto handler 'userHomeController'
+2017-01-07 14:29:23,864 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/searchBaby.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,865 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/searchBaby/] onto handler 'userHomeController'
+2017-01-07 14:29:23,865 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/filtrateBaby] onto handler 'userHomeController'
+2017-01-07 14:29:23,865 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/filtrateBaby.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,865 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/filtrateBaby/] onto handler 'userHomeController'
+2017-01-07 14:29:23,865 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/invite] onto handler 'userHomeController'
+2017-01-07 14:29:23,866 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/invite.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,866 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/invite/] onto handler 'userHomeController'
+2017-01-07 14:29:23,866 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/attention] onto handler 'userHomeController'
+2017-01-07 14:29:23,866 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/attention.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,866 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/attention/] onto handler 'userHomeController'
+2017-01-07 14:29:23,866 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/banner] onto handler 'userHomeController'
+2017-01-07 14:29:23,867 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/banner.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,867 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/banner/] onto handler 'userHomeController'
+2017-01-07 14:29:23,867 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/updatePayPwd] onto handler 'userHomeController'
+2017-01-07 14:29:23,867 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/updatePayPwd.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,867 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/updatePayPwd/] onto handler 'userHomeController'
+2017-01-07 14:29:23,868 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/newList] onto handler 'userHomeController'
+2017-01-07 14:29:23,868 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/newList.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,868 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/newList/] onto handler 'userHomeController'
+2017-01-07 14:29:23,868 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/test] onto handler 'userHomeController'
+2017-01-07 14:29:23,868 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/test.*] onto handler 'userHomeController'
+2017-01-07 14:29:23,869 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/test/] onto handler 'userHomeController'
+2017-01-07 14:29:23,871 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/autoLogin] onto handler 'userLoginController'
+2017-01-07 14:29:23,871 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/autoLogin.*] onto handler 'userLoginController'
+2017-01-07 14:29:23,871 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/autoLogin/] onto handler 'userLoginController'
+2017-01-07 14:29:23,872 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/login] onto handler 'userLoginController'
+2017-01-07 14:29:23,872 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/login.*] onto handler 'userLoginController'
+2017-01-07 14:29:23,872 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/free/login/] onto handler 'userLoginController'
+2017-01-07 14:29:23,872 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/logout] onto handler 'userLoginController'
+2017-01-07 14:29:23,872 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/logout.*] onto handler 'userLoginController'
+2017-01-07 14:29:23,873 INFO  [localhost-startStop-1] DefaultAnnotationHandlerMapping.registerHandler(315) | Mapped URL path [/user/logout/] onto handler 'userLoginController'
+2017-01-07 14:29:24,314 INFO  [localhost-startStop-1] VelocityConfigurer.createVelocityEngine(222) | Loading Velocity config from [class path resource [config/velocity.properties]]
+2017-01-07 14:29:24,318 INFO  [localhost-startStop-1] VelocityConfigurer.postProcessVelocityEngine(139) | ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+2017-01-07 14:29:24,642 INFO  [localhost-startStop-1] SimpleUrlHandlerMapping.registerHandler(315) | Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2017-01-07 14:29:24,721 WARN  [localhost-startStop-1] SimpleUrlHandlerMapping.registerHandlers(115) | Neither 'urlMap' nor 'mappings' set on SimpleUrlHandlerMapping
+2017-01-07 14:29:24,833 INFO  [localhost-startStop-1] DispatcherServlet.initServletBean(473) | FrameworkServlet 'meike-mener': initialization completed in 1788 ms
+Jan 07, 2017 2:29:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /usr/local/apache-tomcat-7.0.59_meike-mener/webapps/meike-mener has finished in 8,543 ms
+Jan 07, 2017 2:29:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8088"]
+Jan 07, 2017 2:29:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8018"]
+Jan 07, 2017 2:29:24 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8598 ms
+2017-01-07 14:30:05,162 INFO  [http-bio-8088-exec-1] AlipayController.orderNotify(74) | ====================进入支付宝回调接口======================
+log4j:ERROR No output stream or file set for the appender named [file].
+discount-------0.00
+payment_type-------1
+subject-------魅客天天
+trade_no-------2017010721001004720215241262
+buyer_email-------18392058325
+gmt_create-------2017-01-07 14:30:04
+notify_type-------trade_status_sync
+quantity-------1
+out_trade_no-------0107142959-1009
+seller_id-------2088521339971792
+notify_time-------2017-01-07 14:30:04
+body-------小小
+trade_status-------WAIT_BUYER_PAY
+is_total_fee_adjust-------Y
+total_fee-------0.01
+seller_email-------hzhike@haikedao.com
+price-------0.01
+buyer_id-------2088902403065728
+notify_id-------c1b9403f72e57fa664fd9e1ffa2735alk2
+use_coupon-------N
+sign_type-------RSA
+sign-------cES4az4VgfsP4Km417i5W3Tzev7NFGG6UlRVPHtI1vKpJXiQW3JDKbDTAfrh7RttTmzofseLDFFERefCrjQrBUSWiHgv58y9pv35Lv5v2PeFEAv7BWaNYK/EXaZoqwAo08+qviyfOzmb3+MtkJItTcz4Z3JLFYyGqamnqT3S5Iw=
+2017-01-07 14:30:05,558 INFO  [http-bio-8088-exec-2] AlipayController.orderNotify(74) | ====================进入支付宝回调接口======================
+discount-------0.00
+payment_type-------1
+subject-------魅客天天
+trade_no-------2017010721001004720215241262
+buyer_email-------18392058325
+gmt_create-------2017-01-07 14:30:04
+notify_type-------trade_status_sync
+quantity-------1
+out_trade_no-------0107142959-1009
+seller_id-------2088521339971792
+notify_time-------2017-01-07 14:30:05
+body-------小小
+trade_status-------TRADE_SUCCESS
+is_total_fee_adjust-------N
+total_fee-------0.01
+gmt_payment-------2017-01-07 14:30:05
+seller_email-------hzhike@haikedao.com
+price-------0.01
+buyer_id-------2088902403065728
+notify_id-------4fc41ae506d0a3ba5ad68dcbc8d6ec4lk2
+use_coupon-------N
+sign_type-------RSA
+sign-------h6q1PvP2EqlbGmaV4up8eqYQTvGFiwzT4OAkxNRFzaVzMbPWAjaTvQ814v+SeKco2fDTq6AbfBmRptsfSXjoCDqomp2qkcCemdTQ03WEtoy9OzLGw7XHswlTk73a+XpRwfKdN7I87kjg9iGCV5sJthlzV1ammJ/jMwk0jj7ISqY=
+2017-01-07 14:30:05,641 INFO  [http-bio-8088-exec-2] AlipayController.orderNotify(121) | ====================具体业务逻辑======================
+2017-01-07 14:36:38,163 INFO  [http-bio-8088-exec-5] DruidDataSource.init(669) | {dataSource-1} inited
+2017-01-07 14:36:38,216 INFO  [http-bio-8088-exec-5] sqltiming.sqlTimingOccured(357) | SELECT b.id,c.order_counter,b.nick_name,b.grade_price,b.best_tags, b.age,b.height,b.weight,b.grade_id,b.grade_img,b.phone,b.scale_name,b.service_status, 
+b.show_index_img, (round(6371000*2*asin(sqrt(pow(sin(((lat*pi())/180-(30.19*pi())/180)/2),2)+cos((30.19*pi())/180)*cos((lat*pi())/180)*pow(sin(((lag*pi())/180-(120.21*pi())/180)/2),2)))/1000.0,1)) 
+distance FROM ms_baby b,ms_baby_counter c WHERE b.id=c.baby_id AND (6371000*2*asin(sqrt(pow(sin(((lat*pi())/180-(30.19*pi())/180)/2),2)+cos((30.19*pi())/180)*cos((lat*pi())/180)*pow(sin(((lag*pi())/180-(120.21*pi())/180)/2),2))))<20000 
+AND b.service_status=1 AND b.audit_status=1 AND b.have_order=3 ORDER BY b.grade_id ASC,distance 
+ASC LIMIT 0,10  {executed in 4 msec}
+2017-01-07 14:36:38,239 INFO  [http-bio-8088-exec-5] sqltiming.sqlTimingOccured(357) | SELECT id, title, img_url, sort, is_show, create_time, link_url FROM sys_banner WHERE is_show=1 
+ {executed in 1 msec}
+2017-01-07 14:36:38,283 INFO  [http-bio-8088-exec-5] MeikeAop.logParam(100) | 
+[method:UserHomeController.homePage(..)]
+[request:{"lag":"120.21","lat":"30.19","pageNumb":1},org.apache.catalina.connector.ResponseFacade@233f30e5,]
+[response:{"data":{"babyList":[{"age":24,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":5.9,"expireTime":null,"gradeId":2,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi2.png","gradePrice":1200,"height":168,"id":106,"nickName":"妹子7","orderCounter":3,"phone":"112233446","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://c.hiphotos.baidu.com/image/h%3D360/sign=b8cea9e92b738bd4db21b437918b876c/f7246b600c3387448982f948540fd9f9d72aa0bb.jpg","timeRage":0,"weight":60},{"age":23,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":8.2,"expireTime":null,"gradeId":2,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi2.png","gradePrice":1200,"height":166,"id":105,"nickName":"妹子6","orderCounter":7,"phone":"112233445","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://f.hiphotos.baidu.com/image/h%3D360/sign=0ec20d71f01fbe09035ec5125b600c30/00e93901213fb80e0ee553d034d12f2eb9389484.jpg","timeRage":0,"weight":42},{"age":25,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":6.7,"expireTime":null,"gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradePrice":900,"height":162,"id":107,"nickName":"妹子8","orderCounter":8,"phone":"112233447","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://f.hiphotos.baidu.com/image/h%3D360/sign=e105b9f1d61b0ef473e89e58edc651a1/b151f8198618367a9f738e022a738bd4b21ce573.jpg","timeRage":0,"weight":55},{"age":26,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":8,"expireTime":null,"gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradePrice":900,"height":164,"id":108,"nickName":"妹子9","orderCounter":11,"phone":"112233448","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://a.hiphotos.baidu.com/image/h%3D360/sign=e9cda7a0f403738dc14a0a24831ab073/08f790529822720e5c3f3afa79cb0a46f21fab39.jpg","timeRage":0,"weight":50},{"age":16,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":9.3,"expireTime":null,"gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradePrice":900,"height":158,"id":109,"nickName":"妹子10","orderCounter":34,"phone":"112233449","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://e.hiphotos.baidu.com/image/h%3D360/sign=011f56749058d109dbe3afb4e158ccd0/b7fd5266d016092477539711d60735fae6cd3441.jpg","timeRage":0,"weight":45},{"age":13,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":10.6,"expireTime":null,"gradeId":4,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi4.png","gradePrice":600,"height":155,"id":110,"nickName":"妹子11","orderCounter":25,"phone":"112233450","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://f.hiphotos.baidu.com/image/h%3D360/sign=9502c41fbe315c605c956de9bdb0cbe6/a5c27d1ed21b0ef46e29f054dfc451da80cb3ef2.jpg","timeRage":0,"weight":40}],"bannerList":[{"createTime":"2016-12-08 14:54:30","id":1,"imgUrl":"http://mkqiniu.6428.wang/image/banner1.png","isShow":1,"linkUrl":"#","sort":1,"title":"banner1"},{"createTime":"2016-12-08 14:54:47","id":2,"imgUrl":"http://mkqiniu.6428.wang/image/banner2.png","isShow":1,"linkUrl":"#","sort":1,"title":"banner2"}]},"code":200,"msg":"请求成功"}]
+2017-01-07 14:36:38,284 INFO  [http-bio-8088-exec-5] MeikeAop.doRequest(53) | 
+[execTime:525ms]
+2017-01-07 14:36:47,337 INFO  [http-bio-8088-exec-6] MeikeAop.logParam(100) | 
+[method:SMSController.verifyCode(..)]
+[request:{"phone":"189"},org.apache.catalina.connector.ResponseFacade@309b77e9,]
+[response:{"data":{"createTime":"2017-01-07 14:36:47","verifyCode":"888888"},"code":200,"msg":"请求成功"}]
+2017-01-07 14:36:47,338 INFO  [http-bio-8088-exec-6] MeikeAop.doRequest(53) | 
+[execTime:20ms]
+2017-01-07 14:36:54,846 INFO  [http-bio-8088-exec-7] sqltiming.sqlTimingOccured(357) | SELECT id, phone, account, nick_name, photo, type, regist_time, cid, token, have_order, money, 
+pay_password FROM mm_user WHERE phone = '189' LIMIT 1  {executed in 2 msec}
+2017-01-07 14:36:54,853 INFO  [http-bio-8088-exec-7] sqltiming.sqlTimingOccured(357) | UPDATE mm_user SET token='9d40df53874b49b59e0240fc6834800e1483771014849',cid='1ab9f5c0e0351dcb398006edc332b5a1' 
+WHERE id=1251  {executed in 2 msec}
+2017-01-07 14:36:54,864 INFO  [http-bio-8088-exec-7] MeikeAop.logParam(100) | 
+[method:UserLoginController.login(..)]
+[request:{"cid":"1ab9f5c0e0351dcb398006edc332b5a1","type":1,"userAccount":"189"},org.apache.catalina.connector.ResponseFacade@233f30e5,]
+[response:{"data":{"account":"","cid":"1ab9f5c0e0351dcb398006edc332b5a1","haveOrder":3,"id":1251,"money":0,"nickName":"少爷","payPassword":"","phone":"189","photo":"http://mkqiniu.6428.wang/image/user_default.png","registTime":"2017-01-03 18:40:09","token":"9d40df53874b49b59e0240fc6834800e1483771014849","type":1},"code":200,"msg":"请求成功"}]
+2017-01-07 14:36:54,864 INFO  [http-bio-8088-exec-7] MeikeAop.doRequest(53) | 
+[execTime:47ms]
+2017-01-07 14:36:55,703 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT have_order FROM mm_user WHERE id=1250  {executed in 1 msec}
+2017-01-07 14:36:55,707 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, order_no, user_id, user_phone, user_name, user_address, meet_address, meet_time, 
+order_time, baby_id, baby_phone, baby_name, baby_address, is_new, order_status, pay_money, 
+pay_type, trade_account, profit_money, cost_money, fine_money, finish_time, user_cid, user_israte, 
+is_delete FROM mk_order WHERE user_id=1250 AND is_new=1 LIMIT 1  {executed in 1 msec}
+2017-01-07 14:36:55,712 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, order_id, baby_id, baby_name, baby_photo, grade_img, baby_phone, scale, reached_time, 
+late, pay_money, fine_money, cost_money, profit_money, order_status, baby_cid, baby_israte, 
+order_time, is_treat FROM mk_order_detail WHERE order_id=26  {executed in 1 msec}
+2017-01-07 14:36:55,744 INFO  [http-bio-8088-exec-8] MeikeAop.logParam(100) | 
+[method:UserOrderController.currentOrderDetail(..)]
+[request:{"userId":1250},org.apache.catalina.connector.ResponseFacade@309b77e9,]
+[response:{"data":{"currentOrder":{"id":26,"isDelete":1,"isNew":1,"meetAddress":"ix-work","meetTime":"2016-12-30 14:51:51","orderDetailList":[{"babyCid":"cid1234","babyId":103,"babyIsrate":2,"babyName":"请客妹子1","babyPhone":"phone1234","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":7,"isTreat":2,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":1000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"},{"babyCid":"cid1234","babyId":104,"babyIsrate":2,"babyName":"请客妹子2","babyPhone":"phone5678","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":8,"isTreat":1,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":2000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"}],"orderNo":"71561483506679017","orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":3000.00,"payType":1,"tradeAccount":"公司的打款账号啊","userAddress":"用户地址","userCid":"cid-ppap","userId":1250,"userIsrate":0,"userName":"请客了啊","userPhone":"125013124312342"},"haveOrder":1},"code":200,"msg":"请求成功"}]
+2017-01-07 14:36:55,745 INFO  [http-bio-8088-exec-8] MeikeAop.doRequest(53) | 
+[execTime:69ms]
+2017-01-07 14:41:02,468 INFO  [http-bio-8088-exec-10] sqltiming.sqlTimingOccured(357) | SELECT b.id,c.order_counter,b.nick_name,b.grade_price,b.best_tags, b.age,b.height,b.weight,b.grade_id,b.grade_img,b.phone,b.scale_name,b.service_status, 
+b.show_index_img, (round(6371000*2*asin(sqrt(pow(sin(((lat*pi())/180-(30.19*pi())/180)/2),2)+cos((30.19*pi())/180)*cos((lat*pi())/180)*pow(sin(((lag*pi())/180-(120.21*pi())/180)/2),2)))/1000.0,1)) 
+distance FROM ms_baby b,ms_baby_counter c WHERE b.id=c.baby_id AND (6371000*2*asin(sqrt(pow(sin(((lat*pi())/180-(30.19*pi())/180)/2),2)+cos((30.19*pi())/180)*cos((lat*pi())/180)*pow(sin(((lag*pi())/180-(120.21*pi())/180)/2),2))))<20000 
+AND b.service_status=1 AND b.audit_status=1 AND b.have_order=3 ORDER BY b.grade_id ASC,distance 
+ASC LIMIT 0,10  {executed in 2 msec}
+2017-01-07 14:41:02,476 INFO  [http-bio-8088-exec-10] sqltiming.sqlTimingOccured(357) | SELECT id, title, img_url, sort, is_show, create_time, link_url FROM sys_banner WHERE is_show=1 
+ {executed in 1 msec}
+2017-01-07 14:41:02,480 INFO  [http-bio-8088-exec-10] MeikeAop.logParam(100) | 
+[method:UserHomeController.homePage(..)]
+[request:{"lag":"120.21","lat":"30.19","pageNumb":1},org.apache.catalina.connector.ResponseFacade@309b77e9,]
+[response:{"data":{"babyList":[{"age":24,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":5.9,"expireTime":null,"gradeId":2,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi2.png","gradePrice":1200,"height":168,"id":106,"nickName":"妹子7","orderCounter":3,"phone":"112233446","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://c.hiphotos.baidu.com/image/h%3D360/sign=b8cea9e92b738bd4db21b437918b876c/f7246b600c3387448982f948540fd9f9d72aa0bb.jpg","timeRage":0,"weight":60},{"age":23,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":8.2,"expireTime":null,"gradeId":2,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi2.png","gradePrice":1200,"height":166,"id":105,"nickName":"妹子6","orderCounter":7,"phone":"112233445","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://f.hiphotos.baidu.com/image/h%3D360/sign=0ec20d71f01fbe09035ec5125b600c30/00e93901213fb80e0ee553d034d12f2eb9389484.jpg","timeRage":0,"weight":42},{"age":25,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":6.7,"expireTime":null,"gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradePrice":900,"height":162,"id":107,"nickName":"妹子8","orderCounter":8,"phone":"112233447","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://f.hiphotos.baidu.com/image/h%3D360/sign=e105b9f1d61b0ef473e89e58edc651a1/b151f8198618367a9f738e022a738bd4b21ce573.jpg","timeRage":0,"weight":55},{"age":26,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":8,"expireTime":null,"gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradePrice":900,"height":164,"id":108,"nickName":"妹子9","orderCounter":11,"phone":"112233448","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://a.hiphotos.baidu.com/image/h%3D360/sign=e9cda7a0f403738dc14a0a24831ab073/08f790529822720e5c3f3afa79cb0a46f21fab39.jpg","timeRage":0,"weight":50},{"age":16,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":9.3,"expireTime":null,"gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradePrice":900,"height":158,"id":109,"nickName":"妹子10","orderCounter":34,"phone":"112233449","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://e.hiphotos.baidu.com/image/h%3D360/sign=011f56749058d109dbe3afb4e158ccd0/b7fd5266d016092477539711d60735fae6cd3441.jpg","timeRage":0,"weight":45},{"age":13,"bestTags":["亲亲嘴","摸摸腿"],"cid":"","distance":10.6,"expireTime":null,"gradeId":4,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi4.png","gradePrice":600,"height":155,"id":110,"nickName":"妹子11","orderCounter":25,"phone":"112233450","photo":"","rateAvg":0,"scaleName":["吃饭","唱歌"],"serviceStatus":1,"showIndexImg":"http://f.hiphotos.baidu.com/image/h%3D360/sign=9502c41fbe315c605c956de9bdb0cbe6/a5c27d1ed21b0ef46e29f054dfc451da80cb3ef2.jpg","timeRage":0,"weight":40}],"bannerList":[{"createTime":"2016-12-08 14:54:30","id":1,"imgUrl":"http://mkqiniu.6428.wang/image/banner1.png","isShow":1,"linkUrl":"#","sort":1,"title":"banner1"},{"createTime":"2016-12-08 14:54:47","id":2,"imgUrl":"http://mkqiniu.6428.wang/image/banner2.png","isShow":1,"linkUrl":"#","sort":1,"title":"banner2"}]},"code":200,"msg":"请求成功"}]
+2017-01-07 14:41:02,480 INFO  [http-bio-8088-exec-10] MeikeAop.doRequest(53) | 
+[execTime:16ms]
+2017-01-07 14:41:15,543 INFO  [http-bio-8088-exec-10] MeikeAop.logParam(100) | 
+[method:SMSController.verifyCode(..)]
+[request:{"phone":"186"},org.apache.catalina.connector.ResponseFacade@233f30e5,]
+[response:{"data":{"createTime":"2017-01-07 14:41:15","verifyCode":"888888"},"code":200,"msg":"请求成功"}]
+2017-01-07 14:41:15,543 INFO  [http-bio-8088-exec-10] MeikeAop.doRequest(53) | 
+[execTime:0ms]
+2017-01-07 14:41:26,716 INFO  [http-bio-8088-exec-10] sqltiming.sqlTimingOccured(357) | SELECT id, phone, account, nick_name, photo, type, regist_time, cid, token, have_order, money, 
+pay_password FROM mm_user WHERE phone = '186' LIMIT 1  {executed in 1 msec}
+2017-01-07 14:41:26,722 INFO  [http-bio-8088-exec-10] sqltiming.sqlTimingOccured(357) | UPDATE mm_user SET token='589f1769c86044efa5f1c4ddf2f207b91483771286718',cid='5be0d3b0eb122fbadc4334af9ad7e580' 
+WHERE id=1249  {executed in 3 msec}
+2017-01-07 14:41:26,722 INFO  [http-bio-8088-exec-10] MeikeAop.logParam(100) | 
+[method:UserLoginController.login(..)]
+[request:{"cid":"5be0d3b0eb122fbadc4334af9ad7e580","type":1,"userAccount":"186"},org.apache.catalina.connector.ResponseFacade@309b77e9,]
+[response:{"data":{"account":"","cid":"5be0d3b0eb122fbadc4334af9ad7e580","haveOrder":3,"id":1249,"money":0,"nickName":"少爷","payPassword":"","phone":"186","photo":"http://mkqiniu.6428.wang/image/user_default.png","registTime":"2016-12-30 11:59:41","token":"589f1769c86044efa5f1c4ddf2f207b91483771286718","type":1},"code":200,"msg":"请求成功"}]
+2017-01-07 14:41:26,722 INFO  [http-bio-8088-exec-10] MeikeAop.doRequest(53) | 
+[execTime:8ms]
+2017-01-07 14:41:26,866 INFO  [http-bio-8088-exec-10] sqltiming.sqlTimingOccured(357) | SELECT have_order FROM mm_user WHERE id=1250  {executed in 2 msec}
+2017-01-07 14:41:26,869 INFO  [http-bio-8088-exec-10] sqltiming.sqlTimingOccured(357) | SELECT id, order_no, user_id, user_phone, user_name, user_address, meet_address, meet_time, 
+order_time, baby_id, baby_phone, baby_name, baby_address, is_new, order_status, pay_money, 
+pay_type, trade_account, profit_money, cost_money, fine_money, finish_time, user_cid, user_israte, 
+is_delete FROM mk_order WHERE user_id=1250 AND is_new=1 LIMIT 1  {executed in 2 msec}
+2017-01-07 14:41:26,873 INFO  [http-bio-8088-exec-10] sqltiming.sqlTimingOccured(357) | SELECT id, order_id, baby_id, baby_name, baby_photo, grade_img, baby_phone, scale, reached_time, 
+late, pay_money, fine_money, cost_money, profit_money, order_status, baby_cid, baby_israte, 
+order_time, is_treat FROM mk_order_detail WHERE order_id=26  {executed in 1 msec}
+2017-01-07 14:41:26,877 INFO  [http-bio-8088-exec-10] MeikeAop.logParam(100) | 
+[method:UserOrderController.currentOrderDetail(..)]
+[request:{"userId":1250},org.apache.catalina.connector.ResponseFacade@233f30e5,]
+[response:{"data":{"currentOrder":{"id":26,"isDelete":1,"isNew":1,"meetAddress":"ix-work","meetTime":"2016-12-30 14:51:51","orderDetailList":[{"babyCid":"cid1234","babyId":103,"babyIsrate":2,"babyName":"请客妹子1","babyPhone":"phone1234","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":7,"isTreat":2,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":1000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"},{"babyCid":"cid1234","babyId":104,"babyIsrate":2,"babyName":"请客妹子2","babyPhone":"phone5678","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":8,"isTreat":1,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":2000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"}],"orderNo":"71561483506679017","orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":3000.00,"payType":1,"tradeAccount":"公司的打款账号啊","userAddress":"用户地址","userCid":"cid-ppap","userId":1250,"userIsrate":0,"userName":"请客了啊","userPhone":"125013124312342"},"haveOrder":1},"code":200,"msg":"请求成功"}]
+2017-01-07 14:41:26,877 INFO  [http-bio-8088-exec-10] MeikeAop.doRequest(53) | 
+[execTime:14ms]
+2017-01-07 14:42:19,187 INFO  [http-bio-8088-exec-5] sqltiming.sqlTimingOccured(357) | SELECT b.id,b.photo,ROUND((c.rate_score/c.rate_counter),1) rate_avg, b.nick_name,b.age,b.height,b.weight,b.service_status 
+FROM ms_baby b,ms_baby_counter c WHERE b.id=c.baby_id AND b.audit_status=1 ORDER BY rate_avg 
+DESC LIMIT 0,10  {executed in 2 msec}
+2017-01-07 14:42:19,197 INFO  [http-bio-8088-exec-5] MeikeAop.logParam(100) | 
+[method:UserBoardController.creditList(..)]
+[request:{"pageNumb":1},org.apache.catalina.connector.ResponseFacade@233f30e5,]
+[response:{"data":[{"age":22,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":172,"id":104,"nickName":"妹子5","orderCounter":0,"phone":"","photo":"http://img5.imgtn.bdimg.com/it/u=3315102859,1312159472&fm=21&gp=0.jpg","rateAvg":3,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":48},{"age":23,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":166,"id":105,"nickName":"妹子6","orderCounter":0,"phone":"","photo":"http://img1.imgtn.bdimg.com/it/u=3957358198,1977641671&fm=21&gp=0.jpg","rateAvg":2.2,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":42},{"age":25,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":162,"id":107,"nickName":"妹子8","orderCounter":0,"phone":"","photo":"http://img4.imgtn.bdimg.com/it/u=3941236756,1803737284&fm=21&gp=0.jpg","rateAvg":2,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":55},{"age":24,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":168,"id":106,"nickName":"妹子7","orderCounter":0,"phone":"","photo":"http://img2.imgtn.bdimg.com/it/u=2917520647,3010880393&fm=21&gp=0.jpg","rateAvg":1.7,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":60},{"age":13,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":155,"id":110,"nickName":"妹子11","orderCounter":0,"phone":"","photo":"http://img0.imgtn.bdimg.com/it/u=928132524,2157190890&fm=21&gp=0.jpg","rateAvg":1.5,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":40},{"age":26,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":164,"id":108,"nickName":"妹子9","orderCounter":0,"phone":"","photo":"http://img0.imgtn.bdimg.com/it/u=545598122,308194906&fm=21&gp=0.jpg","rateAvg":1.5,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":50},{"age":16,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":158,"id":109,"nickName":"妹子10","orderCounter":0,"phone":"","photo":"http://img5.imgtn.bdimg.com/it/u=1067767652,1709022177&fm=23&gp=0.jpg","rateAvg":1.2,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":45},{"age":21,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":175,"id":103,"nickName":"妹子4","orderCounter":0,"phone":"","photo":"http://img2.imgtn.bdimg.com/it/u=1286725908,1664751308&fm=21&gp=0.jpg","rateAvg":1.1,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":52},{"age":20,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":173,"id":102,"nickName":"妹子3","orderCounter":0,"phone":"","photo":"http://img1.imgtn.bdimg.com/it/u=4004387816,869241303&fm=21&gp=0.jpg","rateAvg":1.1,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":46},{"age":19,"bestTags":[""],"cid":"","distance":0,"expireTime":null,"gradeId":0,"gradeImg":"","gradePrice":0,"height":170,"id":101,"nickName":"妹子2","orderCounter":0,"phone":"","photo":"http://img1.imgtn.bdimg.com/it/u=2964280126,3192160153&fm=21&gp=0.jpg","rateAvg":1,"scaleName":[""],"serviceStatus":1,"showIndexImg":"","timeRage":0,"weight":50}],"code":200,"msg":"请求成功"}]
+2017-01-07 14:42:19,198 INFO  [http-bio-8088-exec-5] MeikeAop.doRequest(53) | 
+[execTime:31ms]
+2017-01-07 14:42:22,465 INFO  [http-bio-8088-exec-5] sqltiming.sqlTimingOccured(357) | SELECT id, user_id, order_counter, attention_counter, report_counter, rate_counter, rate_score 
+FROM mm_user_counter WHERE user_id=1 LIMIT 1  {executed in 2 msec}
+2017-01-07 14:42:22,466 INFO  [http-bio-8088-exec-5] MeikeAop.doRequest(53) | 
+[execTime:35ms]
+2017-01-07 14:44:01,798 INFO  [http-bio-8088-exec-7] sqltiming.sqlTimingOccured(357) | SELECT id, phone, nick_name, grade_id, grade_name, grade_price, grade_img, photo, background, 
+birthday, age, sex, origo, nation, education, profession, major, height, weight, resume_img, 
+show_img, show_index_img, bwh, sign, self_rate, charm, face, shape, haird, blood, lat, lag, 
+address, audit_status, service_status, regist_time, audit_time, audit_name, cid, scale_name, 
+have_order, grade_time, expire_time, best_tags FROM ms_baby WHERE id = 108 LIMIT 1  {executed in 2 msec}
+2017-01-07 14:44:01,805 INFO  [http-bio-8088-exec-7] sqltiming.sqlTimingOccured(357) | SELECT id, baby_id, order_counter, profit_money, pending_money, cost_money, fine_money, balance_money, 
+battention_counter, rate_counter, rate_score, create_time FROM ms_baby_counter WHERE baby_id 
+= 108 LIMIT 1  {executed in 0 msec}
+2017-01-07 14:44:01,810 INFO  [http-bio-8088-exec-7] sqltiming.sqlTimingOccured(357) | SELECT id, aid, bid, user_name, user_photo, attention_time FROM mk_attention WHERE aid=1249 
+AND bid=108 LIMIT 1  {executed in 1 msec}
+2017-01-07 14:44:01,842 INFO  [http-bio-8088-exec-7] MeikeAop.logParam(100) | 
+[method:UserHomeController.babyDetail(..)]
+[request:{"babyId":108,"userId":1249},org.apache.catalina.connector.ResponseFacade@233f30e5,]
+[response:{"data":{"isAttention":2,"showImgs":["http://a.hiphotos.baidu.com/image/pic/item/e7cd7b899e510fb3a78c787fdd33c895d0430c44.jpg","http://c.hiphotos.baidu.com/image/pic/item/f703738da977391279688a89fc198618377ae288.jpg","http://f.hiphotos.baidu.com/image/pic/item/a2cc7cd98d1001e904cc1be7bc0e7bec55e79761.jpg"],"rateAvg":1.5,"baby":{"address":"浙江杭州***","age":26,"auditName":"admin","auditStatus":1,"auditTime":"2016-12-08 15:20:16","background":"http://a.hiphotos.baidu.com/image/h%3D360/sign=ef1d2ab975c6a7efa626ae20cdfaafe9/f9dcd100baa1cd117a87fd46ba12c8fcc3ce2da6.jpg","bestTags":"亲亲嘴,摸摸腿","birthday":"2016-12-08","blood":"O","bwh":"66,66,66","charm":"所有部位","cid":"getui_1234567898","education":"本科","expireTime":"2016-12-08 11:39:16","face":"瓜子脸","gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradeName":"嫔妃","gradePrice":900.00,"gradeTime":"2016-12-08 11:39:16","haird":"长直发","haveOrder":3,"height":164,"id":108,"lag":"120.13","lat":"30.17","major":"服务业","nation":"汉族","nickName":"妹子9","origo":"浙江杭州","phone":"112233448","photo":"http://img0.imgtn.bdimg.com/it/u=545598122,308194906&fm=21&gp=0.jpg","profession":"在校大学生","registTime":"2016-12-08 11:39:16","resumeImg":"https://img.alicdn.com/simba/img/TB1k_AhOpXXXXaaXVXXSutbFXXX.jpg,https://img.alicdn.com/simba/img/TB1Wsq4OpXXXXaNXpXXSutbFXXX.jpg","scaleName":"吃饭,唱歌","selfRate":"文静型","serviceStatus":1,"sex":2,"shape":"适中","showImg":"http://a.hiphotos.baidu.com/image/pic/item/e7cd7b899e510fb3a78c787fdd33c895d0430c44.jpg,http://c.hiphotos.baidu.com/image/pic/item/f703738da977391279688a89fc198618377ae288.jpg,http://f.hiphotos.baidu.com/image/pic/item/a2cc7cd98d1001e904cc1be7bc0e7bec55e79761.jpg","showIndexImg":"http://a.hiphotos.baidu.com/image/h%3D360/sign=e9cda7a0f403738dc14a0a24831ab073/08f790529822720e5c3f3afa79cb0a46f21fab39.jpg","sign":"处女座","version":0,"weight":50}},"code":200,"msg":"请求成功"}]
+2017-01-07 14:44:01,843 INFO  [http-bio-8088-exec-7] MeikeAop.doRequest(53) | 
+[execTime:59ms]
+2017-01-07 14:44:04,244 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT have_order FROM mm_user WHERE id=1250  {executed in 1 msec}
+2017-01-07 14:44:04,247 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, order_no, user_id, user_phone, user_name, user_address, meet_address, meet_time, 
+order_time, baby_id, baby_phone, baby_name, baby_address, is_new, order_status, pay_money, 
+pay_type, trade_account, profit_money, cost_money, fine_money, finish_time, user_cid, user_israte, 
+is_delete FROM mk_order WHERE user_id=1250 AND is_new=1 LIMIT 1  {executed in 1 msec}
+2017-01-07 14:44:04,252 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, order_id, baby_id, baby_name, baby_photo, grade_img, baby_phone, scale, reached_time, 
+late, pay_money, fine_money, cost_money, profit_money, order_status, baby_cid, baby_israte, 
+order_time, is_treat FROM mk_order_detail WHERE order_id=26  {executed in 2 msec}
+2017-01-07 14:44:04,256 INFO  [http-bio-8088-exec-8] MeikeAop.logParam(100) | 
+[method:UserOrderController.currentOrderDetail(..)]
+[request:{"userId":1250},org.apache.catalina.connector.ResponseFacade@309b77e9,]
+[response:{"data":{"currentOrder":{"id":26,"isDelete":1,"isNew":1,"meetAddress":"ix-work","meetTime":"2016-12-30 14:51:51","orderDetailList":[{"babyCid":"cid1234","babyId":103,"babyIsrate":2,"babyName":"请客妹子1","babyPhone":"phone1234","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":7,"isTreat":2,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":1000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"},{"babyCid":"cid1234","babyId":104,"babyIsrate":2,"babyName":"请客妹子2","babyPhone":"phone5678","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":8,"isTreat":1,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":2000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"}],"orderNo":"71561483506679017","orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":3000.00,"payType":1,"tradeAccount":"公司的打款账号啊","userAddress":"用户地址","userCid":"cid-ppap","userId":1250,"userIsrate":0,"userName":"请客了啊","userPhone":"125013124312342"},"haveOrder":1},"code":200,"msg":"请求成功"}]
+2017-01-07 14:44:04,257 INFO  [http-bio-8088-exec-8] MeikeAop.doRequest(53) | 
+[execTime:15ms]
+2017-01-07 14:44:07,949 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, phone, nick_name, grade_id, grade_name, grade_price, grade_img, photo, background, 
+birthday, age, sex, origo, nation, education, profession, major, height, weight, resume_img, 
+show_img, show_index_img, bwh, sign, self_rate, charm, face, shape, haird, blood, lat, lag, 
+address, audit_status, service_status, regist_time, audit_time, audit_name, cid, scale_name, 
+have_order, grade_time, expire_time, best_tags FROM ms_baby WHERE id = 108 LIMIT 1  {executed in 2 msec}
+2017-01-07 14:44:07,956 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, baby_id, order_counter, profit_money, pending_money, cost_money, fine_money, balance_money, 
+battention_counter, rate_counter, rate_score, create_time FROM ms_baby_counter WHERE baby_id 
+= 108 LIMIT 1  {executed in 1 msec}
+2017-01-07 14:44:07,960 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, aid, bid, user_name, user_photo, attention_time FROM mk_attention WHERE aid=1249 
+AND bid=108 LIMIT 1  {executed in 1 msec}
+2017-01-07 14:44:07,962 INFO  [http-bio-8088-exec-8] MeikeAop.logParam(100) | 
+[method:UserHomeController.babyDetail(..)]
+[request:{"babyId":108,"userId":1249},org.apache.catalina.connector.ResponseFacade@233f30e5,]
+[response:{"data":{"isAttention":2,"showImgs":["http://a.hiphotos.baidu.com/image/pic/item/e7cd7b899e510fb3a78c787fdd33c895d0430c44.jpg","http://c.hiphotos.baidu.com/image/pic/item/f703738da977391279688a89fc198618377ae288.jpg","http://f.hiphotos.baidu.com/image/pic/item/a2cc7cd98d1001e904cc1be7bc0e7bec55e79761.jpg"],"rateAvg":1.5,"baby":{"address":"浙江杭州***","age":26,"auditName":"admin","auditStatus":1,"auditTime":"2016-12-08 15:20:16","background":"http://a.hiphotos.baidu.com/image/h%3D360/sign=ef1d2ab975c6a7efa626ae20cdfaafe9/f9dcd100baa1cd117a87fd46ba12c8fcc3ce2da6.jpg","bestTags":"亲亲嘴,摸摸腿","birthday":"2016-12-08","blood":"O","bwh":"66,66,66","charm":"所有部位","cid":"getui_1234567898","education":"本科","expireTime":"2016-12-08 11:39:16","face":"瓜子脸","gradeId":3,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi3.png","gradeName":"嫔妃","gradePrice":900.00,"gradeTime":"2016-12-08 11:39:16","haird":"长直发","haveOrder":3,"height":164,"id":108,"lag":"120.13","lat":"30.17","major":"服务业","nation":"汉族","nickName":"妹子9","origo":"浙江杭州","phone":"112233448","photo":"http://img0.imgtn.bdimg.com/it/u=545598122,308194906&fm=21&gp=0.jpg","profession":"在校大学生","registTime":"2016-12-08 11:39:16","resumeImg":"https://img.alicdn.com/simba/img/TB1k_AhOpXXXXaaXVXXSutbFXXX.jpg,https://img.alicdn.com/simba/img/TB1Wsq4OpXXXXaNXpXXSutbFXXX.jpg","scaleName":"吃饭,唱歌","selfRate":"文静型","serviceStatus":1,"sex":2,"shape":"适中","showImg":"http://a.hiphotos.baidu.com/image/pic/item/e7cd7b899e510fb3a78c787fdd33c895d0430c44.jpg,http://c.hiphotos.baidu.com/image/pic/item/f703738da977391279688a89fc198618377ae288.jpg,http://f.hiphotos.baidu.com/image/pic/item/a2cc7cd98d1001e904cc1be7bc0e7bec55e79761.jpg","showIndexImg":"http://a.hiphotos.baidu.com/image/h%3D360/sign=e9cda7a0f403738dc14a0a24831ab073/08f790529822720e5c3f3afa79cb0a46f21fab39.jpg","sign":"处女座","version":0,"weight":50}},"code":200,"msg":"请求成功"}]
+2017-01-07 14:44:07,962 INFO  [http-bio-8088-exec-8] MeikeAop.doRequest(53) | 
+[execTime:16ms]
+2017-01-07 14:44:09,066 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT have_order FROM mm_user WHERE id=1250  {executed in 1 msec}
+2017-01-07 14:44:09,069 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, order_no, user_id, user_phone, user_name, user_address, meet_address, meet_time, 
+order_time, baby_id, baby_phone, baby_name, baby_address, is_new, order_status, pay_money, 
+pay_type, trade_account, profit_money, cost_money, fine_money, finish_time, user_cid, user_israte, 
+is_delete FROM mk_order WHERE user_id=1250 AND is_new=1 LIMIT 1  {executed in 2 msec}
+2017-01-07 14:44:09,073 INFO  [http-bio-8088-exec-8] sqltiming.sqlTimingOccured(357) | SELECT id, order_id, baby_id, baby_name, baby_photo, grade_img, baby_phone, scale, reached_time, 
+late, pay_money, fine_money, cost_money, profit_money, order_status, baby_cid, baby_israte, 
+order_time, is_treat FROM mk_order_detail WHERE order_id=26  {executed in 1 msec}
+2017-01-07 14:44:09,078 INFO  [http-bio-8088-exec-8] MeikeAop.logParam(100) | 
+[method:UserOrderController.currentOrderDetail(..)]
+[request:{"userId":1250},org.apache.catalina.connector.ResponseFacade@309b77e9,]
+[response:{"data":{"currentOrder":{"id":26,"isDelete":1,"isNew":1,"meetAddress":"ix-work","meetTime":"2016-12-30 14:51:51","orderDetailList":[{"babyCid":"cid1234","babyId":103,"babyIsrate":2,"babyName":"请客妹子1","babyPhone":"phone1234","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":7,"isTreat":2,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":1000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"},{"babyCid":"cid1234","babyId":104,"babyIsrate":2,"babyName":"请客妹子2","babyPhone":"phone5678","babyPhoto":"photo.jpg","costMoney":0.00,"fineMoney":0.00,"gradeImg":"img.jpg","id":8,"isTreat":1,"late":0,"orderId":26,"orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":2000.00,"profitMoney":0.00,"reachedTime":null,"scale":"吃饭,唱歌"}],"orderNo":"71561483506679017","orderStatus":1,"orderTime":"2017-01-04 13:11:19","payMoney":3000.00,"payType":1,"tradeAccount":"公司的打款账号啊","userAddress":"用户地址","userCid":"cid-ppap","userId":1250,"userIsrate":0,"userName":"请客了啊","userPhone":"125013124312342"},"haveOrder":1},"code":200,"msg":"请求成功"}]
+2017-01-07 14:44:09,078 INFO  [http-bio-8088-exec-8] MeikeAop.doRequest(53) | 
+[execTime:14ms]
+2017-01-07 14:49:49,647 INFO  [http-bio-8088-exec-3] sqltiming.sqlTimingOccured(357) | SELECT id, phone, nick_name, grade_id, grade_name, grade_price, grade_img, photo, background, 
+birthday, age, sex, origo, nation, education, profession, major, height, weight, resume_img, 
+show_img, show_index_img, bwh, sign, self_rate, charm, face, shape, haird, blood, lat, lag, 
+address, audit_status, service_status, regist_time, audit_time, audit_name, cid, scale_name, 
+have_order, grade_time, expire_time, best_tags FROM ms_baby WHERE id = 110 LIMIT 1  {executed in 2 msec}
+2017-01-07 14:49:49,653 INFO  [http-bio-8088-exec-3] sqltiming.sqlTimingOccured(357) | SELECT id, baby_id, order_counter, profit_money, pending_money, cost_money, fine_money, balance_money, 
+battention_counter, rate_counter, rate_score, create_time FROM ms_baby_counter WHERE baby_id 
+= 110 LIMIT 1  {executed in 1 msec}
+2017-01-07 14:49:49,656 INFO  [http-bio-8088-exec-3] sqltiming.sqlTimingOccured(357) | SELECT id, aid, bid, user_name, user_photo, attention_time FROM mk_attention WHERE aid=1245 
+AND bid=110 LIMIT 1  {executed in 1 msec}
+2017-01-07 14:49:49,658 INFO  [http-bio-8088-exec-3] MeikeAop.logParam(100) | 
+[method:UserHomeController.babyDetail(..)]
+[request:{"userId":"1245","babyId":"110"},org.apache.catalina.connector.ResponseFacade@309b77e9,]
+[response:{"data":{"isAttention":2,"showImgs":["http://a.hiphotos.baidu.com/image/pic/item/e7cd7b899e510fb3a78c787fdd33c895d0430c44.jpg","http://c.hiphotos.baidu.com/image/pic/item/f703738da977391279688a89fc198618377ae288.jpg","http://f.hiphotos.baidu.com/image/pic/item/a2cc7cd98d1001e904cc1be7bc0e7bec55e79761.jpg"],"rateAvg":1.5,"baby":{"address":"浙江杭州***","age":13,"auditName":"admin","auditStatus":1,"auditTime":"2016-12-08 11:39:16","background":"hhttp://a.hiphotos.baidu.com/image/h%3D360/sign=ef1d2ab975c6a7efa626ae20cdfaafe9/f9dcd100baa1cd117a87fd46ba12c8fcc3ce2da6.jpg","bestTags":"亲亲嘴,摸摸腿","birthday":"2016-12-08","blood":"O","bwh":"66,66,66","charm":"所有部位","cid":"getui_1234567910","education":"本科","expireTime":"2016-12-08 11:39:16","face":"瓜子脸","gradeId":4,"gradeImg":"http://mkqiniu.6428.wang/image/baoshi4.png","gradeName":"贵人","gradePrice":600.00,"gradeTime":"2016-12-08 11:39:16","haird":"长直发","haveOrder":3,"height":155,"id":110,"lag":"120.11","lat":"30.15","major":"服务业","nation":"汉族","nickName":"妹子11","origo":"浙江杭州","phone":"112233450","photo":"http://img0.imgtn.bdimg.com/it/u=928132524,2157190890&fm=21&gp=0.jpg","profession":"在校大学生","registTime":"2016-12-08 11:39:16","resumeImg":"https://img.alicdn.com/simba/img/TB1k_AhOpXXXXaaXVXXSutbFXXX.jpg,https://img.alicdn.com/simba/img/TB1Wsq4OpXXXXaNXpXXSutbFXXX.jpg","scaleName":"吃饭,唱歌","selfRate":"文静型","serviceStatus":1,"sex":2,"shape":"适中","showImg":"http://a.hiphotos.baidu.com/image/pic/item/e7cd7b899e510fb3a78c787fdd33c895d0430c44.jpg,http://c.hiphotos.baidu.com/image/pic/item/f703738da977391279688a89fc198618377ae288.jpg,http://f.hiphotos.baidu.com/image/pic/item/a2cc7cd98d1001e904cc1be7bc0e7bec55e79761.jpg","showIndexImg":"http://f.hiphotos.baidu.com/image/h%3D360/sign=9502c41fbe315c605c956de9bdb0cbe6/a5c27d1ed21b0ef46e29f054dfc451da80cb3ef2.jpg","sign":"处女座","version":0,"weight":40}},"code":200,"msg":"请求成功"}]
+2017-01-07 14:49:49,658 INFO  [http-bio-8088-exec-3] MeikeAop.doRequest(53) | 
+[execTime:15ms]

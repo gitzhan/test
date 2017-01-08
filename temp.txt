@@ -1,0 +1,400 @@
+http://f.hiphotos.baidu.com/image/pic/item/00e93901213fb80e0ee553d034d12f2eb9389484.jpg
+http://a.hiphotos.baidu.com/image/pic/item/f11f3a292df5e0fe0996ba065e6034a85edf722e.jpg
+http://a.hiphotos.baidu.com/image/pic/item/71cf3bc79f3df8dc39cb6295cf11728b461028c4.jpg
+http://f.hiphotos.baidu.com/image/pic/item/b151f8198618367a9f738e022a738bd4b21ce573.jpg
+http://f.hiphotos.baidu.com/image/pic/item/279759ee3d6d55fbdf1e87f969224f4a21a4dd11.jpg
+http://g.hiphotos.baidu.com/image/pic/item/0ff41bd5ad6eddc4a7f85eff3bdbb6fd52663393.jpg
+
+
+
+以动手实践为荣，以只看不练为耻。
+以打印日志为荣，以出错不报为耻。
+以局部变量为荣，以全局变量为耻。
+以单元测试为荣，以手工测试为耻。
+
+以代码重用为荣，以复制粘贴为耻。
+以多态应用为荣，以分支判断为耻。
+以定义常量为荣，以魔法数字为耻。
+以总结思考为荣，以不求甚解为耻。
+
+
+
+
+
+开始-------------
+2200  1400  2900  2000  800  2000  2000  2400  400  1500  
+1400  200  1300  1800  2000  2100  700  2800  800  900  
+300  1200  2200  2800  2300  1900  2900  2900  1200  400  
+1000  2900  300  200  2300  400  1900  1600  400  2900  
+2400  1100  1500  0  1500  1000  1300  1300  2700  2600  
+1200  1100  2200  700  700  1900  2800  1800  1000  2700  
+1800  2300  700  600  2500  400  2400  2800  300  1600  
+100  1200  1200  1700  400  1600  300  2600  2600  500  
+2700  300  2900  2500  1200  1500  600  1800  1300  1000  
+200  2900  2000  2600  2200  900  800  900  1700  100  
+1/9,2/2,3/1,5/4,4/3,6/5,7/6,9/7,0/0,0/0
+---------------------------------
+1600  2400  1100  2200  700  800  1000  0  2500  1400  
+1300  400  1500  500  1700  1800  500  1200  1200  700  
+2200  500  2900  2700  1900  1200  2300  200  2800  700  
+1000  2100  2100  2400  1200  1100  2000  300  2900  1300  
+2200  2800  2900  2400  1600  1100  1700  200  1100  2000  
+900  1700  100  1900  200  2600  1600  1700  700  500  
+800  2700  2600  1500  900  500  2600  2300  2500  2400  
+1500  500  1900  2300  400  1400  700  200  100  2700  
+2400  600  1200  0  1300  0  0  1000  2700  2700  
+2100  2000  2500  1800  2300  1300  1400  1400  200  1600  
+3/10,2/2,4/1,5/8,1/5,6/3,7/6,10/9,0/0,0/0
+----------------------------------------------------------------------------------------------
+300  1800  1000  1600  2900  1500  1800  1100  2100  500  
+800  700  2000  2900  1800  2300  1600  1800  1200  1400  
+1900  300  1800  2300  1900  500  1800  1400  1900  1300  
+1700  1400  1600  2200  2400  2300  2300  1000  0  1300  
+2500  500  1400  1900  500  500  2900  200  2200  2100  
+2300  300  2000  2500  1100  1500  1700  2500  2100  500  
+2200  1900  300  100  300  1500  600  1800  1000  1200  
+0  0  100  1700  600  1900  1700  2100  500  100  
+2100  1000  2800  600  1700  1600  2500  1300  400  300  
+1800  800  2000  2200  900  500  1300  100  400  2100  
+1/1,3/6,4/9,6/2,0/0,0/0,0/0,0/0,0/0,0/0
+---------------------------------
+200  1200  1900  2700  2800  1000  1500  1400  1300  2900  
+2100  1900  500  500  2900  400  1000  2100  1100  2100  
+900  2900  800  0  1600  1300  2500  900  800  1200  
+2100  700  1400  500  1600  1600  1600  1300  600  300  
+2000  1200  400  200  1900  2200  700  600  900  2000  
+2400  2100  2800  1000  2300  2500  2000  500  1500  600  
+300  1400  1700  1400  900  700  500  700  2700  200  
+100  0  800  1200  900  1600  2400  400  1100  1900  
+2300  900  1500  2400  600  1700  500  1100  0  0  
+1200  700  900  1900  1800  2700  800  2500  2500  600  
+1/1,3/4,4/10,5/3,2/6,6/8,8/2,10/7,7/5,9/9
+---------------------------------
+2700  1800  2000  200  1700  2300  2900  2000  2600  2400  
+100  700  300  2600  2100  2900  2200  1100  1200  2000  
+1200  1300  2600  800  2300  2200  0  600  1700  400  
+2100  2300  0  1300  1100  1000  500  2000  2500  1100  
+1800  2900  700  2100  2300  600  2200  0  0  2100  
+1200  1300  2500  900  900  700  1300  2100  1800  100  
+1700  1800  2200  1100  500  2800  2100  2700  2600  800  
+1300  100  1600  2400  1300  700  2800  2400  2700  1500  
+1400  2300  1500  1300  2800  900  1200  800  2100  2700  
+2800  1700  1600  1200  2700  1400  1500  100  2600  2500  
+1/4,2/1,3/7,4/3,6/10,7/5,8/2,10/8,5/9,9/6
+---------------------------------
+2800  200  1700  2200  700  2100  0  500  2900  1900  
+2600  1300  2600  700  1100  2400  1800  2700  1700  600  
+2700  2700  800  1600  1700  1400  2200  2300  2200  1400  
+2900  1100  1800  2900  2100  2400  1300  700  2900  2000  
+2700  2300  2300  2000  2700  600  1200  2600  2000  1500  
+800  100  800  1300  0  700  2700  2600  2100  1900  
+2000  2300  500  1600  2100  1300  2800  100  300  200  
+800  1900  1900  2600  1900  800  400  2000  2500  900  
+1300  2700  2400  0  900  1800  2200  2100  800  2400  
+900  2900  1800  700  1400  600  1400  400  300  2600  
+1/7,3/3,4/8,5/6,8/1,9/4,2/10,10/9,6/2,0/0
+---------------------------------
+2300  1700  2900  900  1900  1000  1400  2200  1000  1800  
+2000  2800  2500  2000  1500  700  100  700  800  1300  
+500  0  2500  1400  2100  1100  700  700  700  500  
+0  200  600  600  900  1500  700  1700  2000  2900  
+1000  700  1800  2500  2800  600  1800  2800  1300  300  
+2300  2500  2600  2300  2300  2500  500  300  1400  1000  
+1000  400  2400  1600  2600  400  0  1800  1100  1600  
+1000  2200  1100  1100  2600  2300  700  2000  900  2400  
+2800  1700  2100  500  300  800  2900  2900  2100  1400  
+200  600  1300  1500  700  1300  1400  200  2600  2600  
+2/7,3/2,5/10,6/8,8/3,9/5,10/1,0/0,0/0,0/0
+---------------------------------
+1600  200  2700  1000  1500  1100  1300  100  600  2900  
+2800  1000  1400  2900  1600  1100  800  2400  1700  1000  
+2800  1300  2600  1600  100  200  800  1200  2800  2100  
+2700  800  2300  1900  1300  2500  1400  1500  1100  1700  
+900  500  1100  100  1300  1800  800  1800  1500  2300  
+1400  1600  1300  600  2000  2100  1100  600  2000  300  
+1100  2300  800  2900  2500  900  1200  1500  2500  500  
+200  300  1800  2800  2200  2400  1400  2300  500  1700  
+1100  600  1400  400  0  2100  1400  1000  900  1800  
+800  1800  2800  1100  800  300  2300  1100  1700  1200  
+1/8,2/7,5/4,6/10,7/3,9/5,10/6,0/0,0/0,0/0
+---------------------------------
+1200  2000  2900  700  500  2800  1300  300  2100  2300  
+400  2500  500  2900  2600  100  1100  2400  1900  2500  
+2500  2000  700  2600  500  900  2000  2000  1800  1800  
+2100  600  600  700  900  1300  1300  600  1900  1400  
+900  2900  1600  400  2700  1500  500  2100  100  1300  
+300  900  1300  700  100  2400  0  500  2300  1500  
+1300  1200  1400  1900  800  2600  1100  400  2500  1700  
+1800  2200  1000  300  2600  100  1700  300  2700  2300  
+1500  600  2200  2400  2700  1900  300  1600  1600  2000  
+1800  900  1800  0  200  2700  1800  2300  900  900  
+1/8,3/5,5/9,8/6,2/1,9/7,0/0,0/0,0/0,0/0
+---------------------------------
+2600  0  1200  1800  1900  2700  2600  900  1000  1600  
+1500  1400  2700  1700  2000  900  2900  100  2200  2000  
+1800  1800  1400  0  900  2000  1500  1500  2300  1200  
+800  1000  700  2900  2500  2300  100  1500  700  2200  
+1200  1700  2500  1000  1600  600  600  900  200  900  
+0  2900  1000  2300  100  2100  400  1200  1200  900  
+1600  300  2400  1300  300  2800  0  2400  300  1700  
+1800  2000  1300  1900  1000  1700  2000  2800  1600  2000  
+2500  300  2500  2000  1000  0  1600  1900  2900  300  
+400  800  2400  1100  200  1600  1900  200  1700  2500  
+1/2,2/8,3/4,5/9,6/1,7/5,8/3,0/0,0/0,0/0
+---------------------------------
+结束-------------
+耗时--1s
+
+
+
+
+
+
+
+
+
+
+
+UPDATE term SET sys_result='1/1,2/3,3/2,4/4,5/5,6/6,7/7,8/8,9/9,10/10',art_result='1/1,2/3,3/2,4/4,5/5,6/6,7/7,8/8,9/9,10/10' 
+WHERE id=92  {executed in 107 msec}
+2016-12-28 09:58:06,953 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | select * from term where is_new =1 limit 1  {executed in 12 msec}
+2016-12-28 09:58:06,973 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | select term_id,agent_id,group_concat(bets) as bets,sum(gold) as gold from bet where term_id 
+=92 GROUP BY agent_id  {executed in 19 msec}
+2016-12-28 09:58:07,056 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | insert into profits (term_id,agent_id,profit,create_time) values (92,1,800,'12/28/2016 09:58:06.981') 
+ {executed in 19 msec}
+2016-12-28 09:58:07,095 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | update agent SET profit=profit+ 800 where id = 1  {executed in 20 msec}
+2016-12-28 09:58:07,118 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | update manage set profit=profit + -800 where id=1  {executed in 22 msec}
+2016-12-28 09:58:07,145 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | update term set profit=profit + -800 where id =92  {executed in 26 msec}
+2016-12-28 09:58:07,169 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | update term set is_new =2 where id =92  {executed in 23 msec}
+2016-12-28 09:58:07,194 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | INSERT INTO term ( is_new, start_time, end_time, bet_time, profit ) VALUES ( 1, '12/28/2016 
+10:00:07.170', NULL, '12/28/2016 09:59:07.170', 0)  {executed in 23 msec}、
+
+
+
+
+
+
+json={"userId":1250,"userCid":"cid-ppap","userName":"请客了啊","userPhone":"125013124312342",
+"meetAddress":"ix-work","meetTime":"2016-12-30 14:51:51","payMoney":"2000","payType":"1","tradeAccount":"应该是妹子的账号啊",
+"orderDetailList":[{"babyId":100,"babyCid":"cid1234"},{"babyId":100,"babyCid":"cid1234"}]
+
+
+
+
+妹子待结钱和已结钱更新问题
+
+用户评价时候需要使用事务？
+
+
+
+
+
+
+"orderDetailList":[{"babyId":102,"babyCid":"cid1234","isTreat":1,"babyName":"请客妹子1",
+"babyPhoto":"photo.jpg","gradeImg":"img.jpg","babyPhone":"phone1234","scale":"吃饭,唱歌","payMoney":"1000"},
+{"babyId":101,"babyCid":"cid1234","isTreat":1,"babyName":"请客妹子2",
+"babyPhoto":"photo.jpg","gradeImg":"img.jpg","babyPhone":"phone5678","scale":"吃饭,唱歌","payMoney":"2000"}]
+
+
+{"userId":1250,"userCid":"cid-ppap","userName":"请客了啊","userPhone":"125013124312342","userAddress":"用户地址"
+"meetAddress":"ix-work","meetTime":"2016-12-30 14:51:51","payMoney":"2000","payType":"1","tradeAccount":"公司的打款账号啊",
+"orderDetailList":[]}
+
+
+
+2017-01-03 16:14:04,239 INFO  [http-bio-8080-exec-6] DruidDataSource.init(669) | {dataSource-1} inited
+log4j:ERROR No output stream or file set for the appender named [file].
+2017-01-03 16:14:04,333 INFO  [http-bio-8080-exec-6] sqltiming.sqlTimingOccured(357) | select * from agent where user_name ='admin' and password ='admin2016'  {executed in 19 msec}
+2017-01-03 16:14:08,622 INFO  [http-bio-8080-exec-6] sqltiming.sqlTimingOccured(357) | SELECT id, user_name, password, nick_name, profit, create_time FROM manage WHERE user_name='admin' 
+AND password='admin2016'  {executed in 10 msec}
+2017-01-03 16:14:08,708 INFO  [http-bio-8080-exec-9] sqltiming.sqlTimingOccured(357) | SELECT id, is_new, start_time, end_time, bet_time, profit, sys_result, art_result FROM term 
+order by id desc limit 0,10  {executed in 10 msec}
+2017-01-03 16:14:10,263 INFO  [http-bio-8080-exec-9] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 11 msec}
+2017-01-03 16:14:10,285 INFO  [http-bio-8080-exec-9] sqltiming.sqlTimingOccured(357) | SELECT bets FROM bet WHERE term_id=359  {executed in 9 msec}
+2017-01-03 16:14:10,433 INFO  [http-bio-8080-exec-9] sqltiming.sqlTimingOccured(357) | UPDATE term SET sys_result='1/8,2/5,3/1,4/7,5/10,6/2,7/6,8/3,9/9,10/4',art_result='1/8,2/5,3/1,4/7,5/10,6/2,7/6,8/3,9/9,10/4' 
+WHERE id=359  {executed in 24 msec}
+2017-01-03 16:14:10,534 INFO  [http-bio-8080-exec-9] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 11 msec}
+2017-01-03 16:14:17,952 INFO  [http-bio-8080-exec-8] sqltiming.sqlTimingOccured(357) | select * from agent where user_name ='test1' and password ='123456'  {executed in 9 msec}
+2017-01-03 16:14:17,999 INFO  [http-bio-8080-exec-8] sqltiming.sqlTimingOccured(357) | select gold from agent where id =5  {executed in 8 msec}
+2017-01-03 16:14:18,011 INFO  [http-bio-8080-exec-2] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 10 msec}
+2017-01-03 16:14:18,225 INFO  [http-bio-8080-exec-2] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 11 msec}
+2017-01-03 16:14:19,300 INFO  [http-bio-8080-exec-2] sqltiming.sqlTimingOccured(357) | select * from profits where agent_id=5 order by id desc limit 0,10  {executed in 10 msec}
+2017-01-03 16:14:19,314 INFO  [http-bio-8080-exec-2] sqltiming.sqlTimingOccured(357) | select sum(profit) from profits where agent_id=5  {executed in 9 msec}
+2017-01-03 16:14:20,341 INFO  [http-bio-8080-exec-2] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 9 msec}
+2017-01-03 16:14:20,399 INFO  [http-bio-8080-exec-2] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 10 msec}
+2017-01-03 16:14:44,011 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | select * from term where is_new =1 limit 1  {executed in 10 msec}
+2017-01-03 16:14:44,024 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | select term_id,agent_id,group_concat(bets) as bets,sum(gold) as gold from bet where term_id 
+=360 GROUP BY agent_id  {executed in 10 msec}
+2017-01-03 16:14:44,044 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | UPDATE term SET sys_result='1/4,2/8,3/2,4/1,5/9,6/3,7/10,8/6,9/7,10/5',art_result='1/4,2/8,3/2,4/1,5/9,6/3,7/10,8/6,9/7,10/5' 
+WHERE id=360  {executed in 19 msec}
+2017-01-03 16:14:44,064 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | update term set is_new =2 where id =360  {executed in 19 msec}
+2017-01-03 16:14:44,095 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | INSERT INTO term ( is_new, start_time, end_time, bet_time, profit ) VALUES ( 1, '01/03/2017 
+16:16:44.064', NULL, '01/03/2017 16:15:44.064', 0)  {executed in 20 msec}
+2017-01-03 16:14:47,450 INFO  [http-bio-8080-exec-7] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 24 msec}
+2017-01-03 16:14:47,533 INFO  [http-bio-8080-exec-6] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 12 msec}
+2017-01-03 16:14:48,322 INFO  [http-bio-8080-exec-6] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 10 msec}
+2017-01-03 16:14:48,389 INFO  [http-bio-8080-exec-2] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 12 msec}
+2017-01-03 16:14:59,169 INFO  [http-bio-8080-exec-1] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 9 msec}
+2017-01-03 16:14:59,201 INFO  [http-bio-8080-exec-1] sqltiming.sqlTimingOccured(357) | select gold from agent where id =5  {executed in 17 msec}
+2017-01-03 16:14:59,226 INFO  [http-bio-8080-exec-1] sqltiming.sqlTimingOccured(357) | INSERT INTO bet ( term_id, agent_id, agent_name, bets, gold, bet_time ) VALUES ( 361, 5, 'test1', 
+'1/1/100,2/2/200', 300, '01/03/2017 16:14:59.202')  {executed in 21 msec}
+2017-01-03 16:14:59,251 INFO  [http-bio-8080-exec-1] sqltiming.sqlTimingOccured(357) | update agent set gold =gold + -300 where id =5  {executed in 23 msec}
+2017-01-03 16:15:44,436 INFO  [http-bio-8080-exec-4] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 10 msec}
+2017-01-03 16:15:44,449 INFO  [http-bio-8080-exec-4] sqltiming.sqlTimingOccured(357) | SELECT bets FROM bet WHERE term_id=361  {executed in 10 msec}
+2017-01-03 16:15:44,651 INFO  [http-bio-8080-exec-8] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 12 msec}
+2017-01-03 16:15:46,323 INFO  [http-bio-8080-exec-8] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 11 msec}
+2017-01-03 16:15:46,393 INFO  [http-bio-8080-exec-4] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 13 msec}
+2017-01-03 16:16:44,076 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | select * from term where is_new =1 limit 1  {executed in 11 msec}
+2017-01-03 16:16:44,087 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | select term_id,agent_id,group_concat(bets) as bets,sum(gold) as gold from bet where term_id 
+=362 GROUP BY agent_id  {executed in 10 msec}
+2017-01-03 16:16:44,108 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | UPDATE term SET sys_result='1/8,2/6,3/9,4/3,5/1,6/10,7/5,8/2,9/4,10/7',art_result='1/8,2/6,3/9,4/3,5/1,6/10,7/5,8/2,9/4,10/7' 
+WHERE id=362  {executed in 20 msec}
+2017-01-03 16:16:44,128 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | update term set is_new =2 where id =362  {executed in 20 msec}
+2017-01-03 16:16:44,149 INFO  [Thread-1] sqltiming.sqlTimingOccured(357) | INSERT INTO term ( is_new, start_time, end_time, bet_time, profit ) VALUES ( 1, '01/03/2017 
+16:18:44.129', NULL, '01/03/2017 16:17:44.129', 0)  {executed in 19 msec}
+2017-01-03 16:16:47,675 INFO  [http-bio-8080-exec-8] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 10 msec}
+2017-01-03 16:16:47,759 INFO  [http-bio-8080-exec-3] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 11 msec}
+2017-01-03 16:16:49,331 INFO  [http-bio-8080-exec-3] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 10 msec}
+2017-01-03 16:16:49,398 INFO  [http-bio-8080-exec-1] sqltiming.sqlTimingOccured(357) | select * from term where is_new=1 limit 1  {executed in 10 msec}
+
+
+
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.57
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 3 2014 08:39:16 UTC
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.57.0
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.2
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_17\jre
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_17-b02
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:51727
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=E:\tools\apache-tomcat-7.0.57\webapps
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\tools\apache-tomcat-7.0.57\endorsed
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=UTF-8
+一月 03, 2017 7:59:39 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.7.0_17/bin;E:\TortoiseSVN\bin;E:\apache-maven-3.2.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\James\AppData\Local\Microsoft\WindowsApps;;.
+一月 03, 2017 7:59:39 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+一月 03, 2017 7:59:39 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 665 ms
+一月 03, 2017 7:59:39 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+一月 03, 2017 7:59:39 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.57
+一月 03, 2017 7:59:39 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\tools\apache-tomcat-7.0.57\conf\Catalina\localhost\meike-mener.xml
+一月 03, 2017 7:59:40 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase E:\tools\apache-tomcat-7.0.57\webapps\meike-mener inside the host appBase has been specified, and will be ignored
+一月 03, 2017 7:59:40 下午 org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.j2ee.server:meike-mener' did not find a matching property.
+一月 03, 2017 7:59:40 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\tools\apache-tomcat-7.0.57\webapps\meike-mener\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+一月 03, 2017 7:59:42 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 03, 2017 7:59:42 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+
+
+
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.57
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 3 2014 08:39:16 UTC
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.57.0
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 8
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.2
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JAVA_HOME:             C:\Program Files\Java\jdk1.7.0_17\jre
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_17-b02
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:51777
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\tools\apache-tomcat-7.0.57
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=E:\tools\apache-tomcat-7.0.57\webapps
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\tools\apache-tomcat-7.0.57\endorsed
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=UTF-8
+一月 03, 2017 8:00:43 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.7.0_17\jre\bin;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.7.0_17/bin;E:\TortoiseSVN\bin;E:\apache-maven-3.2.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\James\AppData\Local\Microsoft\WindowsApps;;.
+一月 03, 2017 8:00:43 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+一月 03, 2017 8:00:43 下午 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 739 ms
+一月 03, 2017 8:00:43 下午 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+一月 03, 2017 8:00:43 下午 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.57
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\tools\apache-tomcat-7.0.57\conf\Catalina\localhost\meike-sister.xml
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase E:\tools\apache-tomcat-7.0.57\webapps\meike-sister inside the host appBase has been specified, and will be ignored
+一月 03, 2017 8:00:43 下午 org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'source' to 'org.eclipse.jst.jee.server:meike-sister' did not find a matching property.
+一月 03, 2017 8:00:43 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(E:\tools\apache-tomcat-7.0.57\webapps\meike-sister\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+一月 03, 2017 8:00:46 下午 org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+一月 03, 2017 8:00:46 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+一月 03, 2017 8:00:48 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'meike-sister.root' = [E:\tools\apache-tomcat-7.0.57\webapps\meike-sister\]
+一月 03, 2017 8:00:48 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'meike-sister.root' = [E:\tools\apache-tomcat-7.0.57\webapps\meike-sister\]
+一月 03, 2017 8:00:48 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [classpath:/config/log4j.xml]
+log4j:WARN File option not set for appender [file].
+log4j:WARN Are you using FileAppender instead of ConsoleAppender?
+log4j:ERROR Either File or DatePattern options are not set for appender [file].
+一月 03, 2017 8:00:48 下午 org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'meike-sister'
+
+
+
